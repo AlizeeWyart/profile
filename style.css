@@ -1,0 +1,81 @@
+/* Here goes your CSS */
+
+body {
+  background-color: #FCFAC6
+}
+
+h1, h2, h3 {
+  font-family: 'Indie Flower', cursive;;
+  color: #0F2D48;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  color: #0F2D48;
+  line-height: 130%
+  font-size: 10px;
+}
+
+a {
+  font-family: 'Lato', sans-serif;
+  color: #0F2D48;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+a:hover {
+  color: #FCFAC6;
+}
+
+table {
+  display:block;
+}
+
+.container {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 2px 2px 3px #ECEBB7;
+  border-radius: 8%;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.img-avatar{
+   display:block;
+   margin: 0 auto;
+   border-radius: 50%;
+   width: 150px;
+   height: 150px;
+   border: 3px solid #FCFAC6;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+  text-align: center;
+}
+
+.large-icone{
+  font-size: 30px;
+}
